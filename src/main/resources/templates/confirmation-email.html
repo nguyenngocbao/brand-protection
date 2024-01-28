@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Xác Nhận Tài Khoản</title>
+    <!-- Các style và script cần thiết -->
+</head>
+<body>
+<p>Xin chào <span th:text="${recipientName}">Tên Người Nhận</span>,</p>
+<p>Cảm ơn bạn đã đăng ký. Vui lòng nhấp vào link dưới đây để xác nhận tài khoản của bạn:</p>
+<a th:href="${confirmationUrl}">Xác Nhận Tài Khoản</a>
+<p>Nếu bạn không yêu cầu tạo tài khoản này, vui lòng bỏ qua email này.</p>
+<!-- Footer và thông tin khác -->
+</body>
+</html>
